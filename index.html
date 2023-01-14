@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premiere Page en HTML avec GOMYCODE</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"> Accueil</a></li>
+                <li><a href="##">travail</a></li>
+                <li><a href="###">CV</a></li>
+                <li><a href="####">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>A Propos de Nous</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error fuga sint sapiente eum, voluptas quidem cumque maxime doloremque similique, doloribus ad. Nihil beatae aliquam rem! Impedit dolor accusamus quae rerum?</p>
+        </section>
+        <section> 
+            <h1>Travail</h1>
+            <p> Dans ce video nous vous présentons notre travail</p><br><br>
+            <video controls width="250"> <source src="https://www.youtube.com/watch?v=KDZSc6iz6-I&t=8s">
+            </video>
+            
+        </section>
+        <section>
+            <h1>Mon CV en Tableau</h1> 
+        
+        <table border="2px">
+            <tr>
+                <th> Prénom :</th>                        
+                <th>NOM :</th>             
+                <th> E-mail</th>                
+            </tr>
+            <tr>
+                <td>Daouda</td>
+                <td>GUEYE</td>
+                <td>gueyedaouda@gmail.com</td>
+            </tr>
+        </table>
+        </section>
+        <section>
+            <h1>Remplissez le formulaire pour nous contacter</h1>
+            <form action="post">FORMULAIRE</form>
+            <Label for="pays">PAYS</Label>
+            <input type="text" name="pays"><br>
+            <label for="nationalite">NATIONALITE :</label><br><br>
+            <select name="nat" id="nationalite">
+                <option value="la-nationalite"> Selctionner votre nationalité</option>
+                <option value="sn">Sénégalais</option>
+                <option value="fr">Français</option>
+                <option value="en">Anglais</option>
+            </select>      <br><br>
+            <label for="message">Votre Message</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br><br>
+            <label for="motdepass">Choisir un mot de passe</label>    
+            <input type="password">
+           
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
